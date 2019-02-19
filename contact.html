@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Pertemuan 4 : Form</title>
+    </head>
+    <body>
+        <h1> My Contact Details</h1>
+        <p> My Fictional Address</p>
+        <p>085824856214</p>
+        <p> Ady.ahmadi2@gmail.com</p> 
+
+        <hr>
+
+        <form action="contact.html" method="GET">
+            <fieldset>
+                <legend>Contact me</legend>
+            
+            <p>
+                <label>Tanggal</label>
+                <input type="date" name="tanggal :" />
+            </p>
+
+            <p> 
+                <label>Your name </label>
+                <input type="text" name="name :" placeholder="Enter Your Name">
+            </p>
+
+            <p>
+                <label>Your Email</label>
+                <input type="email" name="Email" placeholder="Enter Your Email ">
+            </p>
+
+            <p> 
+                <label> Your Message</label>
+                <p>
+                <textarea rows ="10" cols ="70" name="Your Message"></textarea>
+                </p>
+            </p>
+
+            <p>
+                <label> Warna Kesukaan </label>
+                <input type="color" name="Color">
+            </p>
+
+            <p> 
+                <label><input type="radio" name="jenis_kelamin" value="Pria"/> Pria</label>
+                <label><input type="radio" name="jenis_kelamin" value="Wanita"/> Wanita</label>
+            </p>
+
+            <p> 
+                <label>Pendidikan Terakhir</label>
+                <select name="pendidikan">
+                    <option value="SD"> SD</option>
+                    <option value="SMP"> SMP</option>
+                    <option value="SMA"> SMA</option>
+                    <option value="S1"> S1</option>
+                    <option value="S2"> S2</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" name="submit">
+            </p>
+        </fieldset>
+        </form>
+    </body>
+</html>
