@@ -1,0 +1,28 @@
+body {
+    
+        font-family: cursive;
+        color: white;
+        background: url('Image/background.jpg')}
+        
+    h1 {
+        color: rgb(255,255,255);
+    }
+    a{
+        color: blue;
+    }
+    img{
+        border-radius:40%;
+    }
+    hr{
+        border: 0;
+    border-top:1px dashed #ffffff;
+    text-align:center;}
+    hr:after{
+        content: '\002702';
+        display:inline-block;
+        position: relative;
+        top:-11px;
+        padding:0 1px;
+        color:#ffffff;
+        font-size:18px;
+    }
